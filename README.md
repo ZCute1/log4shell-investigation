@@ -1,7 +1,4 @@
-# CYB102
-Documentation of my capstone project for Codepath's CYB 102
-
-# Investigating Log4Shell (CYB 102 Capstone)
+# Investigating Log4Shell (Codepath's CYB 102 Capstone)
 
 **Team:** Audrey Flores, Hoang Do, Eric Fisher, Saksham Tehri, Teniola Zuriel Olu-Silas
 
