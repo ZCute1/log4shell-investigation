@@ -2,12 +2,12 @@
 
 **Team:** Audrey Flores, Hoang Do, Eric Fisher, Saksham Tehri, Teniola Zuriel Olu-Silas
 
-## 📄 Presentation Slides
-👉 **[View Full Presentation Deck (PDF)](./CYB102_Presentation.pdf)**
+## Presentation Slides
+**[View Full Presentation Deck (PDF)](./CYB102_Presentation.pdf)**
 
 ---
 
-## 🎯 Investigation Overview
+## Investigation Overview
 Using network packet captures (PCAP) and Windows Security Auditing logs from the OTRF Security Dataset, our team investigated a suspected Log4Shell exploit against a Windows host (`WORKSTATION5`) running Apache Tomcat.
 
 **Core Question:** *Did the Log4Shell request only hit the server, or did it actually lead to code execution?*
@@ -16,7 +16,7 @@ Using network packet captures (PCAP) and Windows Security Auditing logs from the
 
 ---
 
-## 🔍 Attack Timeline & Key Evidence
+## Attack Timeline & Key Evidence
 
 | Time (UTC) | Stage | Evidence Source | Key Finding |
 | :--- | :--- | :--- | :--- |
@@ -27,7 +27,7 @@ Using network packet captures (PCAP) and Windows Security Auditing logs from the
 
 ---
 
-## 🛠️ Dataset, Tools & Playbooks Used
+## Dataset, Tools & Playbooks Used
 * **Dataset:** [OTRF Security Datasets — Log4Shell](https://securitydatasets.com/notebooks/compound/Log4Shell.html) (PCAP & Windows Security Auditing logs)
 * **Wireshark:** Packet inspection and TCP stream reconstruction (`tcp.stream eq 1`).
 * **Windows Security Auditing Logs:** Host-level process creation (`4688`), network connections (`5156`), and registry object access (`4663` / `4656`).
@@ -36,7 +36,7 @@ Using network packet captures (PCAP) and Windows Security Auditing logs from the
   * `IRM-2`: Windows Intrusion
 ---
 
-## 🛡️ Remediation Summary
+## Remediation Summary
 1. **Contain:** Isolate `WORKSTATION5` from the network.
 2. **Preserve:** Retain PCAPs, Windows event logs, timestamps, and IOCs.
 3. **Eradicate:** Patch or remove vulnerable Log4j libraries, terminate malicious PowerShell processes, and remove persistence artifacts.
