@@ -30,11 +30,13 @@ Using network packet captures (PCAP) and Windows Security Auditing logs from the
 
 ---
 
-## 🛠️ Tools & Playbooks Used
+## 🛠️ Dataset, Tools & Playbooks Used
+* **Dataset:** [OTRF Security Datasets — Log4Shell](https://securitydatasets.com/notebooks/compound/Log4Shell.html) (PCAP & Windows Security Auditing logs)
 * **Wireshark:** Packet inspection and TCP stream reconstruction (`tcp.stream eq 1`).
-* **Windows Security Auditing Logs:** Host-level process creation (`4688`), network connections (`5156`), and registry object access (`4663`/`4656`).
-* **Incident Response Playbooks:** `IRM-5` (Malicious Network Behaviour) and `IRM-2` (Windows Intrusion).
-
+* **Windows Security Auditing Logs:** Host-level process creation (`4688`), network connections (`5156`), and registry object access (`4663` / `4656`).
+* **Incident Response Playbooks ([CERT Société Générale IRM](https://github.com/certsocietegenerale/IRM/tree/main/EN)):**
+  * `IRM-5`: Malicious Network Behaviour
+  * `IRM-2`: Windows Intrusion
 ---
 
 ## 🛡️ Remediation Summary
