@@ -6,7 +6,7 @@ Documentation of my capstone project for Codepath's CYB 102
 **Team:** Audrey Flores, Hoang Do, Eric Fisher, Saksham Tehri, Teniola Zuriel Olu-Silas
 
 ## 📄 Presentation Slides
-👉 **[View Full Presentation Deck (PDF)](./CYB102%20Presentation.pdf)**
+👉 **[View Full Presentation Deck (PDF)](./CYB102_Presentation.pdf)**
 
 ---
 
