@@ -41,3 +41,14 @@ Using network packet captures (PCAP) and Windows Security Auditing logs from the
 2. **Preserve:** Retain PCAPs, Windows event logs, timestamps, and IOCs.
 3. **Eradicate:** Patch or remove vulnerable Log4j libraries, terminate malicious PowerShell processes, and remove persistence artifacts.
 4. **Recover:** Rotate credentials, rebuild if necessary, and safely restore services.
+
+---
+
+## 📚 Resources & References
+* **Dataset:** [OTRF Security Datasets — Log4Shell Compound Dataset](https://securitydatasets.com/notebooks/compound/Log4Shell.html)
+* **Incident Response Playbooks:** [CERT Société Générale Incident Response Methodologies (IRM)](https://github.com/certsocietegenerale/IRM/tree/main/EN) (`IRM-2` & `IRM-5`)
+* **Vulnerability Advisory:** [CVE-2021-44228 (Apache Log4j2 JNDI Injection)](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
+* **MITRE ATT&CK Techniques Referenced:**
+  * [T1190 — Exploit Public-Facing Application](https://attack.mitre.org/techniques/T1190/)
+  * [T1059.001 — Command and Scripting Interpreter: PowerShell](https://attack.mitre.org/techniques/T1059/001/)
+  * [T1071.001 — Application Layer Protocol: Web Protocols](https://attack.mitre.org/techniques/T1071/001/)
