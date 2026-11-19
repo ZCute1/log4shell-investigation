@@ -44,7 +44,7 @@ Using network packet captures (PCAP) and Windows Security Auditing logs from the
 
 ---
 
-## 📚 Resources & References
+## Resources & References
 * **Dataset:** [OTRF Security Datasets — Log4Shell Compound Dataset](https://securitydatasets.com/notebooks/compound/Log4Shell.html)
 * **Incident Response Playbooks:** [CERT Société Générale Incident Response Methodologies (IRM)](https://github.com/certsocietegenerale/IRM/tree/main/EN) (`IRM-2` & `IRM-5`)
 * **Vulnerability Advisory:** [CVE-2021-44228 (Apache Log4j2 JNDI Injection)](https://nvd.nist.gov/vuln/detail/CVE-2021-44228)
